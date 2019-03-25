@@ -1,2 +1,2 @@
 def find_smallest_int(arr):
-    return min(n for n in arr)
+    return min(arr)
