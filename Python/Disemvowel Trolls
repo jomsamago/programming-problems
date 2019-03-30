@@ -1,0 +1,6 @@
+def disemvowel(string):
+    res = ""
+    for s in string:
+        if s not in "aeiouAEIOU":
+            res += s
+    return res
